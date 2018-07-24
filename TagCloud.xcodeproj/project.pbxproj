@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802221031C0BEDDC00FBD538 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 802221001C0BEDDC00FBD538 /* DCPathButton.m */; };
+		802221041C0BEDDC00FBD538 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 802221021C0BEDDC00FBD538 /* DCPathItemButton.m */; };
+		802221061C0BF0EB00FBD538 /* SFPatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802221051C0BF0EB00FBD538 /* SFPatchView.swift */; };
+		802221081C0BFA1000FBD538 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802221071C0BFA1000FBD538 /* Common.swift */; };
+		80C4198B1C07F16D00320E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4198A1C07F16D00320E21 /* AppDelegate.swift */; };
+		80C419901C07F16D00320E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C4198E1C07F16D00320E21 /* Main.storyboard */; };
+		80C419921C07F16D00320E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C419911C07F16D00320E21 /* Assets.xcassets */; };
+		80C419951C07F16D00320E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C419931C07F16D00320E21 /* LaunchScreen.storyboard */; };
+		80C419A01C07F16D00320E21 /* TagCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4199F1C07F16D00320E21 /* TagCloudTests.swift */; };
+		80C419AB1C07F16D00320E21 /* TagCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C419AA1C07F16D00320E21 /* TagCloudUITests.swift */; };
+		80C419C41C08534B00320E21 /* DBSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C419C31C08534B00320E21 /* DBSphereView.m */; };
+		80C419CC1C0856A500320E21 /* CloudButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C419C91C0856A500320E21 /* CloudButton.m */; };
+		80C419CD1C0856A500320E21 /* CloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C419CB1C0856A500320E21 /* CloudView.m */; };
+		A02758E52106F69900F5A79D /* FlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02758E32106F69900F5A79D /* FlatViewController.swift */; };
+		A02758E62106F69900F5A79D /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02758E42106F69900F5A79D /* CloudViewController.swift */; };
+		A02758E92106FEC200F5A79D /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = A02758E72106FEC200F5A79D /* welcome.png */; };
+		A02758EA2106FEC200F5A79D /* welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A02758E82106FEC200F5A79D /* welcome@2x.png */; };
+		A02758EC2107016D00F5A79D /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = A02758EB2107016D00F5A79D /* cloud1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C4199C1C07F16D00320E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C4197F1C07F16D00320E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C419861C07F16D00320E21;
+			remoteInfo = TagCloud;
+		};
+		80C419A71C07F16D00320E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C4197F1C07F16D00320E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C419861C07F16D00320E21;
+			remoteInfo = TagCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802220FF1C0BEDDC00FBD538 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathButton.h; path = class/DCPathButton.h; sourceTree = "<group>"; };
+		802221001C0BEDDC00FBD538 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathButton.m; path = class/DCPathButton.m; sourceTree = "<group>"; };
+		802221011C0BEDDC00FBD538 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathItemButton.h; path = class/DCPathItemButton.h; sourceTree = "<group>"; };
+		802221021C0BEDDC00FBD538 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathItemButton.m; path = class/DCPathItemButton.m; sourceTree = "<group>"; };
+		802221051C0BF0EB00FBD538 /* SFPatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFPatchView.swift; sourceTree = "<group>"; };
+		802221071C0BFA1000FBD538 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		80C419871C07F16D00320E21 /* TagCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C4198A1C07F16D00320E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C4198F1C07F16D00320E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C419911C07F16D00320E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C419941C07F16D00320E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C419961C07F16D00320E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C4199B1C07F16D00320E21 /* TagCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C4199F1C07F16D00320E21 /* TagCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudTests.swift; sourceTree = "<group>"; };
+		80C419A11C07F16D00320E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C419A61C07F16D00320E21 /* TagCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C419AA1C07F16D00320E21 /* TagCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudUITests.swift; sourceTree = "<group>"; };
+		80C419AC1C07F16D00320E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C419C01C08534B00320E21 /* DBMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBMatrix.h; path = class/DBMatrix.h; sourceTree = "<group>"; };
+		80C419C11C08534B00320E21 /* DBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBPoint.h; path = class/DBPoint.h; sourceTree = "<group>"; };
+		80C419C21C08534B00320E21 /* DBSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBSphereView.h; path = class/DBSphereView.h; sourceTree = "<group>"; };
+		80C419C31C08534B00320E21 /* DBSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBSphereView.m; path = class/DBSphereView.m; sourceTree = "<group>"; };
+		80C419C51C0853AA00320E21 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		80C419C81C0856A500320E21 /* CloudButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloudButton.h; path = class/CloudButton.h; sourceTree = "<group>"; };
+		80C419C91C0856A500320E21 /* CloudButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CloudButton.m; path = class/CloudButton.m; sourceTree = "<group>"; };
+		80C419CA1C0856A500320E21 /* CloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloudView.h; path = class/CloudView.h; sourceTree = "<group>"; };
+		80C419CB1C0856A500320E21 /* CloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CloudView.m; path = class/CloudView.m; sourceTree = "<group>"; };
+		A02758E32106F69900F5A79D /* FlatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatViewController.swift; sourceTree = "<group>"; };
+		A02758E42106F69900F5A79D /* CloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		A02758E72106FEC200F5A79D /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		A02758E82106FEC200F5A79D /* welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome@2x.png"; sourceTree = "<group>"; };
+		A02758EB2107016D00F5A79D /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C419841C07F16D00320E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419981C07F16D00320E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419A31C07F16D00320E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802220FE1C0BEDA100FBD538 /* patch */ = {
+			isa = PBXGroup;
+			children = (
+				802220FF1C0BEDDC00FBD538 /* DCPathButton.h */,
+				802221001C0BEDDC00FBD538 /* DCPathButton.m */,
+				802221011C0BEDDC00FBD538 /* DCPathItemButton.h */,
+				802221021C0BEDDC00FBD538 /* DCPathItemButton.m */,
+			);
+			name = patch;
+			sourceTree = "<group>";
+		};
+		80C4197E1C07F16D00320E21 = {
+			isa = PBXGroup;
+			children = (
+				80C419891C07F16D00320E21 /* TagCloud */,
+				80C4199E1C07F16D00320E21 /* TagCloudTests */,
+				80C419A91C07F16D00320E21 /* TagCloudUITests */,
+				80C419881C07F16D00320E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80C419881C07F16D00320E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C419871C07F16D00320E21 /* TagCloud.app */,
+				80C4199B1C07F16D00320E21 /* TagCloudTests.xctest */,
+				80C419A61C07F16D00320E21 /* TagCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C419891C07F16D00320E21 /* TagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				A02758EB2107016D00F5A79D /* cloud1.png */,
+				A02758E72106FEC200F5A79D /* welcome.png */,
+				A02758E82106FEC200F5A79D /* welcome@2x.png */,
+				A02758E42106F69900F5A79D /* CloudViewController.swift */,
+				A02758E32106F69900F5A79D /* FlatViewController.swift */,
+				80C419B81C07F37100320E21 /* class */,
+				80C4198A1C07F16D00320E21 /* AppDelegate.swift */,
+				80C4198E1C07F16D00320E21 /* Main.storyboard */,
+				80C419911C07F16D00320E21 /* Assets.xcassets */,
+				80C419931C07F16D00320E21 /* LaunchScreen.storyboard */,
+				80C419C51C0853AA00320E21 /* BridgeHeader.h */,
+				80C419961C07F16D00320E21 /* Info.plist */,
+				802221071C0BFA1000FBD538 /* Common.swift */,
+			);
+			path = TagCloud;
+			sourceTree = "<group>";
+		};
+		80C4199E1C07F16D00320E21 /* TagCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				80C4199F1C07F16D00320E21 /* TagCloudTests.swift */,
+				80C419A11C07F16D00320E21 /* Info.plist */,
+			);
+			path = TagCloudTests;
+			sourceTree = "<group>";
+		};
+		80C419A91C07F16D00320E21 /* TagCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80C419AA1C07F16D00320E21 /* TagCloudUITests.swift */,
+				80C419AC1C07F16D00320E21 /* Info.plist */,
+			);
+			path = TagCloudUITests;
+			sourceTree = "<group>";
+		};
+		80C419B81C07F37100320E21 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				802220FE1C0BEDA100FBD538 /* patch */,
+				80C419C81C0856A500320E21 /* CloudButton.h */,
+				80C419C91C0856A500320E21 /* CloudButton.m */,
+				80C419CA1C0856A500320E21 /* CloudView.h */,
+				80C419CB1C0856A500320E21 /* CloudView.m */,
+				80C419C01C08534B00320E21 /* DBMatrix.h */,
+				80C419C21C08534B00320E21 /* DBSphereView.h */,
+				80C419C31C08534B00320E21 /* DBSphereView.m */,
+				80C419C11C08534B00320E21 /* DBPoint.h */,
+				802221051C0BF0EB00FBD538 /* SFPatchView.swift */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C419861C07F16D00320E21 /* TagCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C419AF1C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloud" */;
+			buildPhases = (
+				80C419831C07F16D00320E21 /* Sources */,
+				80C419841C07F16D00320E21 /* Frameworks */,
+				80C419851C07F16D00320E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagCloud;
+			productName = TagCloud;
+			productReference = 80C419871C07F16D00320E21 /* TagCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C4199A1C07F16D00320E21 /* TagCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C419B21C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloudTests" */;
+			buildPhases = (
+				80C419971C07F16D00320E21 /* Sources */,
+				80C419981C07F16D00320E21 /* Frameworks */,
+				80C419991C07F16D00320E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C4199D1C07F16D00320E21 /* PBXTargetDependency */,
+			);
+			name = TagCloudTests;
+			productName = TagCloudTests;
+			productReference = 80C4199B1C07F16D00320E21 /* TagCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80C419A51C07F16D00320E21 /* TagCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C419B51C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloudUITests" */;
+			buildPhases = (
+				80C419A21C07F16D00320E21 /* Sources */,
+				80C419A31C07F16D00320E21 /* Frameworks */,
+				80C419A41C07F16D00320E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C419A81C07F16D00320E21 /* PBXTargetDependency */,
+			);
+			name = TagCloudUITests;
+			productName = TagCloudUITests;
+			productReference = 80C419A61C07F16D00320E21 /* TagCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C4197F1C07F16D00320E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sue;
+				TargetAttributes = {
+					80C419861C07F16D00320E21 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0940;
+					};
+					80C4199A1C07F16D00320E21 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 80C419861C07F16D00320E21;
+					};
+					80C419A51C07F16D00320E21 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 80C419861C07F16D00320E21;
+					};
+				};
+			};
+			buildConfigurationList = 80C419821C07F16D00320E21 /* Build configuration list for PBXProject "TagCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C4197E1C07F16D00320E21;
+			productRefGroup = 80C419881C07F16D00320E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C419861C07F16D00320E21 /* TagCloud */,
+				80C4199A1C07F16D00320E21 /* TagCloudTests */,
+				80C419A51C07F16D00320E21 /* TagCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C419851C07F16D00320E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C419951C07F16D00320E21 /* LaunchScreen.storyboard in Resources */,
+				A02758EC2107016D00F5A79D /* cloud1.png in Resources */,
+				A02758EA2106FEC200F5A79D /* welcome@2x.png in Resources */,
+				80C419921C07F16D00320E21 /* Assets.xcassets in Resources */,
+				A02758E92106FEC200F5A79D /* welcome.png in Resources */,
+				80C419901C07F16D00320E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419991C07F16D00320E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419A41C07F16D00320E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C419831C07F16D00320E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C419C41C08534B00320E21 /* DBSphereView.m in Sources */,
+				80C419CC1C0856A500320E21 /* CloudButton.m in Sources */,
+				A02758E62106F69900F5A79D /* CloudViewController.swift in Sources */,
+				802221041C0BEDDC00FBD538 /* DCPathItemButton.m in Sources */,
+				802221031C0BEDDC00FBD538 /* DCPathButton.m in Sources */,
+				80C419CD1C0856A500320E21 /* CloudView.m in Sources */,
+				802221061C0BF0EB00FBD538 /* SFPatchView.swift in Sources */,
+				802221081C0BFA1000FBD538 /* Common.swift in Sources */,
+				A02758E52106F69900F5A79D /* FlatViewController.swift in Sources */,
+				80C4198B1C07F16D00320E21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419971C07F16D00320E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C419A01C07F16D00320E21 /* TagCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C419A21C07F16D00320E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C419AB1C07F16D00320E21 /* TagCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C4199D1C07F16D00320E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C419861C07F16D00320E21 /* TagCloud */;
+			targetProxy = 80C4199C1C07F16D00320E21 /* PBXContainerItemProxy */;
+		};
+		80C419A81C07F16D00320E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C419861C07F16D00320E21 /* TagCloud */;
+			targetProxy = 80C419A71C07F16D00320E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80C4198E1C07F16D00320E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C4198F1C07F16D00320E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80C419931C07F16D00320E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C419941C07F16D00320E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C419AD1C07F16D00320E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80C419AE1C07F16D00320E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C419B01C07F16D00320E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TagCloud/BridgeHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		80C419B11C07F16D00320E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TagCloud/BridgeHeader.h;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		80C419B31C07F16D00320E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagCloud.app/TagCloud";
+			};
+			name = Debug;
+		};
+		80C419B41C07F16D00320E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagCloud.app/TagCloud";
+			};
+			name = Release;
+		};
+		80C419B61C07F16D00320E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TagCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		80C419B71C07F16D00320E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suesu.TagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TagCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C419821C07F16D00320E21 /* Build configuration list for PBXProject "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C419AD1C07F16D00320E21 /* Debug */,
+				80C419AE1C07F16D00320E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C419AF1C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C419B01C07F16D00320E21 /* Debug */,
+				80C419B11C07F16D00320E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C419B21C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C419B31C07F16D00320E21 /* Debug */,
+				80C419B41C07F16D00320E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C419B51C07F16D00320E21 /* Build configuration list for PBXNativeTarget "TagCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C419B61C07F16D00320E21 /* Debug */,
+				80C419B71C07F16D00320E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C4197F1C07F16D00320E21 /* Project object */;
+}
